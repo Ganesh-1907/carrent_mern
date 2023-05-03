@@ -4,7 +4,7 @@ import './App.css'
 function Page2(){
     return(
         <div className="header">
-            <nav >
+            <nav>
                 <ul >
                     <button className="Button">home</button>
                     <button className="Button">about</button>
@@ -13,7 +13,6 @@ function Page2(){
                     <button className="Button">contact</button>
                 </ul>
             </nav>
-
         </div>
     )
 }

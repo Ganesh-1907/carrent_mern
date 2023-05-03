@@ -1,29 +1,48 @@
-.App{
-    background-image: url(image5.jpg);
+body{
+    background-color: black;
+}.App{
+    background-image: url(image3.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
-    color: rgb(41, 22, 22);
-    font-size: calc(10px + 2vmin);
-    font-style: italic;
-    text-shadow: 4px 3px white;
+    background-size: cover;
     min-height: 70vh;
     width: 100%;
 }
-.head{
-    
-}
 .Button{
     height: 45px;
-    width: 120px;
-    border-radius: 30px;
+    width: 110px;
+    border-radius: 20px;
+    margin-left: 30px;
 }
 .btn{
-    margin: 30px;
+    padding-left: 1150px;
+    padding-top: 30px;
+    display: inline-flex;
 }
-
-
 ul{
     font-display: inherit;
     display: inline-flex;
     text-decoration: none;
+   
+text-shadow: 4px 3px white;
 }
+.name{
+    color: white;
+    font-size: calc(50px + 3vmin);
+    font-style: italic;
+    padding-left: 50px;
+}
+.name2{
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+    margin-top: -50px;
+}
+.name3{
+    color: black;
+    font-size: calc(30px + 2vmin);
+    font-style: italic;
+    padding-left: 1100px;
+    
+
+}
+
+
