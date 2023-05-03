@@ -37,12 +37,11 @@ text-shadow: 4px 3px white;
     margin-top: -50px;
 }
 .name3{
-    color: black;
-    font-size: calc(30px + 2vmin);
+    color: whitesmoke;
+    font-size: calc(20px + 2vmin);
     font-style: italic;
-    padding-left: 1100px;
-    
-
+    padding-left: 70px;
+    padding-top: 30px;
 }
 
 

@@ -23,8 +23,7 @@ function Page1(){
             <h1 className="name3">AVAILABLE<br/> CARS FOR <br/> RENT!</h1>
         </div>
         <div>
-            
-            {/* <h1 className="name3">Enjoy Your Journey With Our Comfortable Cars</h1> */}
+       
         </div>
         </>
     )
