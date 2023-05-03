@@ -14,15 +14,17 @@ function Page1(){
     return(
         <>
         <div className="App">
-            <h1 >GS-CARS</h1>
             <div className="btn">
-                <button className="Button" onClick={login}><b>Login</b></button>
-                <button className="Button" onClick={Register}><b>Register</b></button>
+                <button className="Button">Login</button>
+                <button className="Button">Signup </button>
             </div>
+            <h1 className="name">CARS-19</h1>
+            <h1 className="name2">Trusted Car Rent Services</h1>
+            <h1 className="name3">AVAILABLE<br/> CARS FOR <br/> RENT!</h1>
         </div>
-        <h1>LIFE IS NOT A DESTINY</h1>
-        <h1>LIFE IS A JOURNEY</h1>
-        
+        <div>
+       
+        </div>
         </>
     )
 }
