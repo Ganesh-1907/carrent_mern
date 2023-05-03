@@ -1,0 +1,29 @@
+.App{
+    background-image: url(image5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    color: rgb(41, 22, 22);
+    font-size: calc(10px + 2vmin);
+    font-style: italic;
+    text-shadow: 4px 3px white;
+    min-height: 70vh;
+    width: 100%;
+}
+.head{
+    
+}
+.Button{
+    height: 45px;
+    width: 120px;
+    border-radius: 30px;
+}
+.btn{
+    margin: 30px;
+}
+
+
+ul{
+    font-display: inherit;
+    display: inline-flex;
+    text-decoration: none;
+}
