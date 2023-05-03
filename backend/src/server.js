@@ -8,8 +8,8 @@ app.use(cors())
 
 
 connectToDB(()=>{
-    app.listen(9000,()=>{
-        console.log('server Running at port 9000')
+    app.listen(8000,()=>{
+        console.log('server Running at port 8000')
     })
 }
 )
