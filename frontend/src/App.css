@@ -1,6 +1,7 @@
-body{
+.back{
     background-color: black;
-}.App{
+}
+.App{
     background-image: url(image3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,18 +31,140 @@ text-shadow: 4px 3px white;
     font-size: calc(50px + 3vmin);
     font-style: italic;
     padding-left: 50px;
+    padding-top: -20px;
 }
 .name2{
     color: rgb(255, 255, 255);
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: -50px;
 }
 .name3{
     color: whitesmoke;
     font-size: calc(20px + 2vmin);
     font-style: italic;
-    padding-left: 70px;
+    padding-left: 50px;
     padding-top: 30px;
 }
-
-
+.section{
+    color: white;
+    display: inline-flex;
+    font-size: calc(10px + 2vmin);
+    font-style: italic;
+}
+.Rback{
+    background-image: url("image3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 97vh;
+    width: 100%;
+}
+.register{
+    color: white;
+    font-size: calc(10px + 2vmin);
+    margin-left: 500px;
+    width: 500px;
+    border-radius: 20px;
+    border: 5px solid green;
+}
+.input{
+    height: 3vh;
+    width: 250px;
+}
+nav{
+    background-color:black;
+    min-height: 15vh;
+    padding-left: 800px;
+}
+.one{
+    display: inline-flex;
+    position: absolute;
+}
+.name4{
+    color: red;
+    font-size: calc(40px + 2vmin);
+    font-style: italic;
+    margin-top: -100px;
+    margin-left: 50px;
+    text-shadow: 3px 1px white;
+}
+.name5{
+    color: white;
+    margin-top: -45px;
+    margin-left: 60px;
+    font-size: calc(3px + 2vmin);
+    text-shadow: 1px 1px white;
+}
+.Two{
+    min-height: 50vh;
+    position: relative;
+}
+.Three{
+    min-height: 29vh;
+    background-color: black;
+    position: relative;
+    margin-top: -25px;
+}
+.name6{
+    color: white;
+    font-size: calc(4px + 2vmin);
+    text-shadow: 1px 1px white;
+}
+.name7{
+    color: #0b3103;
+    font-size: calc(10px + 3vmin);
+    font-style: italic;
+    margin-top: -250px;
+    position: absolute;
+    margin-left: 130px;
+}
+.name8{
+    color: white;
+    font-size: calc(13px + 2vmin);
+    font-style: italic;
+    padding-left: 30px;
+  
+}
+.name9{
+    color: yellow;
+    font-size: calc(20px + 3vmin);
+    margin-left: 30px;
+    margin-top: 20px;
+    text-shadow: 2px 1px white;
+}
+.namec1{
+    color: red;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+.name10{
+    color: red;
+    font-size: calc(40px + 2vmin);
+    font-style: italic;
+    text-shadow: 2px 2px black;
+    background-color: black;
+}
+.image{
+    border-radius: 50%;
+}
+.car-item{
+    display: inline-flex;
+    padding-left: 120px;
+}
+.cars_button{
+    height: 50px;
+    width: 300px;
+    background-color: yellow;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 600px;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+.about_name{
+    color: rgb(23, 23, 211);
+    font-size: calc(50px + 4vmin);
+    font-style: italic;
+    margin-top: -200px;
+    margin-left: 450px;
+    text-shadow: 2px 2px black;
+}
