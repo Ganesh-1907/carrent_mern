@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom";
 function Page1(){
     const nav = useNavigate();
 
-    const login=async()=>{
-        nav("/login")
+    const login=()=>{
+        nav('/login')
     }
-    const Register=async()=>{
+    const register=()=>{
         nav("/Register")
     }
     
@@ -15,8 +15,8 @@ function Page1(){
         <>
         <div className="App">
             <div className="btn">
-                <button className="Button">Login</button>
-                <button className="Button">Signup </button>
+                <button className="Button" onClick={login}>Login</button>
+                <button className="Button" onClick={register}>Signup </button>
             </div>
             <h1 className="name">CARS-19</h1>
             <h1 className="name2">Trusted Car Rent Services</h1>
