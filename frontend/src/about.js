@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./header";
-import CarList from "./cars";
 
 function About(){
     return(
@@ -8,7 +7,7 @@ function About(){
            <div>
                 <Header/>
                 <div>
-                    <img src="park2.webp" height="350px" width="100%"/>
+                    <img src="park1.jpeg" height="350px" width="100%"/>
                     <h1 className="about_name">ABOUT US</h1>
                 </div>
                 <div className="gap"></div>
