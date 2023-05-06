@@ -161,11 +161,11 @@ nav{
     margin-top: 20px;
 }
 .about_name{
-    color: #0e0ec6;
+    color: #601eed;
     font-size: calc(50px + 4vmin);
     font-style: italic;
-    margin-top: -150px;
-    margin-left: 150px;
+    margin-top: -120px;
+    margin-left: 200px;
     text-shadow: 2px 2px black;
 }
 .gap{

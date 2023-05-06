@@ -23,7 +23,7 @@ function CarDetailsPage({ match }) {
     <>
     <div>
       <h1>{car.name}</h1>
-      <img src={car.image} alt={car.name} />
+      <img src={car.imageUrl} alt={car.name} height="300px" width="300px"/>
       <p>{car.name}</p>
       <p>Price per day: ${car.price}</p>
       {/* {!isBooked && (

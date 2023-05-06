@@ -13,6 +13,9 @@ function Header(){
     const about=async()=>{
         nav('/about')
     }
+    const contact=async()=>{
+        nav('/contact')
+    }
 
     return(
     <>
@@ -22,7 +25,7 @@ function Header(){
                     <button className="Button" onClick={home}>HOME</button>
                     <button className="Button" onClick={about}>ABOUT</button>
                     <button className="Button" onClick={more_cars}>CARS</button>
-                    <button className="Button">CONTACT</button>
+                    <button className="Button" onClick={contact}>CONTACT</button>
                 </ul>
             </nav>
             <h1 className="name4">CARS-19</h1>
