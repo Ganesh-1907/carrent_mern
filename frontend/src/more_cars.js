@@ -4,14 +4,14 @@ import { useNavigate } from "react-router-dom";
 
 
 const cars = [
-  { id: 1, name: ' 110', imageUrl: 'car1.png' , price: 'Starts from ₹1000/-' },
-  { id: 2, name: ' Maruti Suzuki igins', imageUrl: 'image4.jpg' , price: 'Starts from ₹1200/-' },
+  { id: 1, name: ' i10', imageUrl: 'car1.png' , price: 'Starts from ₹1000/-' },
+  { id: 2, name: ' Maruti Suzuki ignis', imageUrl: 'image4.jpg' , price: 'Starts from ₹1200/-' },
   { id: 3, name: ' SWIFT', imageUrl: 'car2.png' ,price: 'Starts from ₹1400/-' },
   { id: 4, name: 'AMAZE', imageUrl: 'car3.png' ,price:'Starts from ₹1700/-'},
-  { id: 5, name: ' 120', imageUrl: 'car4.png' , price: 'Starts from ₹1200/-' },
+  { id: 5, name: ' i20', imageUrl: 'car4.png' , price: 'Starts from ₹1200/-' },
   { id: 6, name: ' BALENO', imageUrl: 'car5.png' ,price: 'Starts from ₹1500/-' },
-  { id: 7, name: 'I20 AUTO', imageUrl: 'car6.png' ,price:'Starts from ₹1500/-'},
-  { id: 8, name: '110 AUTO', imageUrl: 'car7.png' , price: 'Starts from ₹1700/-' },
+  { id: 7, name: 'i20 AUTO', imageUrl: 'car6.png' ,price:'Starts from ₹1500/-'},
+  { id: 8, name: 'i10 AUTO', imageUrl: 'car7.png' , price: 'Starts from ₹1700/-' },
   { id: 9, name: 'SWIFT AUTO ', imageUrl: 'car8.png' ,price: 'Starts from ₹2000/-' },
   { id: 10, name: 'BOLENO AUTO', imageUrl: 'car9.png' ,price:'Starts from ₹2000/-'},
   { id: 11, name: 'INNOVA OLD ', imageUrl: 'car10.png' ,price:'Starts from ₹2000/-'},
@@ -23,7 +23,7 @@ const cars = [
   { id: 17, name: 'jeep Wrangler', imageUrl: 'image7.png' ,price:'Starts from ₹3000/-'},
   { id: 18, name: 'HONDA CITY AUTO', imageUrl: 'car16.png' ,price:'Starts from ₹2500/-'},
   { id: 19, name: 'ERTIGA AUTO ', imageUrl: 'car17.png' , price: 'Starts from ₹2800/-' },
-  { id: 20, name: 'ECOSPORT', imageUrl: 'car18.png' ,price: 'Starts from ₹4000/-' },
+  { id: 20, name: 'ECO SPORT', imageUrl: 'car18.png' ,price: 'Starts from ₹4000/-' },
   { id: 21, name: ' RangeRover vellar', imageUrl: 'image8.jpg' ,price: 'Starts from ₹6000/-' },
   { id: 22, name: 'FORTUNER ', imageUrl: 'car19.png' ,price:'Starts from ₹7000/-'},
   { id: 23, name: 'AUDI A4', imageUrl: 'car20.png' ,price:'Starts from ₹12000/-'},

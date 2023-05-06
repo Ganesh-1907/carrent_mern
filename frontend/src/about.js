@@ -9,12 +9,15 @@ function About(){
                 <div>
                     <img src="park1.jpeg" height="350px" width="100%"/>
                     <h1 className="about_name">ABOUT US</h1>
+
                 </div>
                 <div className="gap"></div>
                 <div>
                     <p>havshygvfytfsty</p>
                 </div>
+
            </div>
+           
         </>
     )
 }

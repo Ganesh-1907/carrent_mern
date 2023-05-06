@@ -15,7 +15,7 @@ function Page2(){
         <Header/> 
         <div className="Two">
             <div>
-            <img src="image5.jpg"height="400px" width="1446px" />
+            <img src="image5.jpg" alt="cars" height="400px" width="1446px" />
             <h1 className="name7">A CAR FOR EVERY<br/>PURSE AND <br/>PURPOSE</h1>
             </div>
         </div>
