@@ -8,8 +8,6 @@ const cars = [
   { id: 3, name: 'jeep Wrangler', imageUrl: 'image7.png' ,price:'Starts from ₹3000/-'}
 ];
 
-
-
 const CarList = () => {
 
   const car_details=async()=>{
