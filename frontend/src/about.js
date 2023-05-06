@@ -10,8 +10,11 @@ function About(){
                 <div>
                     <img src="park2.webp" height="300px" width="100%"/>
                     <h1 className="about_name">ABOUT US</h1>
+
                 </div>
+                
            </div>
+           
         </>
     )
 }
