@@ -172,3 +172,8 @@ nav{
     min-height: 10vh;
     background-color: white;
 }
+.about{
+    font-size: calc(10px + 2vmin);
+    background-color:beige;
+
+}

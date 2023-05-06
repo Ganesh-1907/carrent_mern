@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+.bike-table {
+	border: none!important
+}
+
+.bike-table th,
+.bike-table td {
+	padding-left: 0!important;
+	font-size: 13px
+}
+
+.bike-table th {
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #c2c2c2!important
+}
+
+.bike-table td {
+	font-weight: 700;
+	color: #3f3f3f
+}
+
+.entry-content tr td,
+body.et-pb-preview #main-content .container tr td {
+	border-top: 1px solid transparent
+}
+
+.theme_btn {
+	background-color: #ffbf00;
+	border: solid 2px #ffbf00;
+	color: #fff;
+	padding: 7px 12px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	border-radius: 3px
+}
+
+.theme_btn a {
+	color: #ffffff
+}
+
+.theme_btn_wp {
+	background-color: #25D366;
+	border: solid 2px #25D366;
+	color: #fff;
+	padding: 7px 12px 3px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	border-radius: 3px;
+	margin-left: 8px
+}
+
+.wp-img {
+	height: 18px!important
+}
+
+.dplflx {
+	display: flex
+}
+
+.ul-my {
+	list-style: none!important;
+	padding-left: 5px!important;
+	margin: 0!important;
+	text-transform: uppercase
+}
+
+.ul-my li a {
+	color: #3f3f3f;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700
+}
+
+.fbottom a {
+	color: #adadad
+}
+
+.mobile_menu_bar:before {
+	color: #ffbf00;
+	border: solid 2px #fcd2b4;
+	border-radius: 5px
+}
+
+.et_mobile_menu {
+	border-top: 3px solid #ffbf00;
+	text-transform: uppercase
+}
