@@ -13,11 +13,11 @@ function CarDetailsPage({ match }) {
   const { id } = match.useParams();
   const car = cars.find(car => car.id === parseInt(id));
 
-  const [isBooked, setIsBooked] = useState(false);
+  // const [isBooked, setIsBooked] = useState(false);
 
-  function handleBookCar() {
-    setIsBooked(true);
-  }
+  // function handleBookCar() {
+  //   setIsBooked(true);
+  // }
 
   return (
     <>
@@ -26,12 +26,12 @@ function CarDetailsPage({ match }) {
       <img src={car.image} alt={car.name} />
       <p>{car.name}</p>
       <p>Price per day: ${car.price}</p>
-      {!isBooked && (
+      {/* {!isBooked && (
         <button onClick={handleBookCar}>Book Now</button>
       )}
       {isBooked && (
         <p>This car has been booked.</p>
-      )}
+      )} */}
     </div>
     </>
   );
