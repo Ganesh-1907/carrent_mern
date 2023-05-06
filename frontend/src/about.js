@@ -11,7 +11,7 @@ function About(){
                     <h1 className="about_name">ABOUT US</h1>
                 </div>
                 <div className="gap"></div>
-                <div>
+                <div className="about">
                     <p>CARS19  car rental services are the market leaders in Ground Transportation since many years.
                          Whether you want to go outstation for a weekend trip you can rent a car and drive it wherever
                           you heart desires. CARS19  Car rent takes car of the hassle free car rental for you,
