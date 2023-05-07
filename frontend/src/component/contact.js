@@ -4,8 +4,13 @@ import Header from "./header";
 function Contact(){
     return(
         <>
-        <Header/>
+           <div>
+            
+                
+
+           </div>
+           
         </>
     )
 }
-export default Contact;
+export default Contact ;
