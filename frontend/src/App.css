@@ -57,6 +57,8 @@ text-shadow: 4px 3px white;
     background-size: cover;
     min-height: 97vh;
     width: 100%;
+    background-position: center;
+    box-decoration-break:slice;
 }
 .register{
     color: white;
@@ -64,7 +66,10 @@ text-shadow: 4px 3px white;
     margin-left: 500px;
     width: 500px;
     border-radius: 20px;
-    border: 5px solid green;
+    box-sizing:border-box;
+    margin: auto;
+    border: 5px solid #73AD21;
+    padding: 10px;
 }
 .input{
     height: 3vh;
@@ -161,9 +166,9 @@ nav{
     margin-top: 20px;
 }
 .about_name{
-    color: #601eed;
+    color:azure;
     font-size: calc(50px + 4vmin);
-    font-style: italic;
+    font-family:cursive;
     margin-top: -120px;
     margin-left: 200px;
     text-shadow: 2px 2px black;
@@ -174,6 +179,7 @@ nav{
 }
 .about{
     font-size: calc(10px + 2vmin);
-    background-color:beige;
-
+    background-color:rgb(74, 126, 64);
+    font-family:cursive;
+    color:aliceblue;
 }
