@@ -6,8 +6,11 @@ import axios from "axios";
 function Login(){
     const nav=useNavigate();
 
+    
+
     const[username,Setname]=useState();
     const[password,Setpassword]=useState();
+    localStorage.username=username;
 
     const start=async()=>{
         const  responce = await axios.get("http://localhost:8000/login/"+username+"/"+password);

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./header";
+import Footer from "./footer";
 
 function About(){
     return(
@@ -10,7 +11,7 @@ function About(){
                     <img src="park1.jpeg" height="350px" width="100%"/>
                     <h1 className="about_name">ABOUT US</h1>
                 </div>
-                <div className="gap"></div>
+                {/* <div className="gap"></div> */}
                 <div className="about">
                     <p>CARS19  car rental services are the market leaders in Ground Transportation since many years.
                          Whether you want to go outstation for a weekend trip you can rent a car and drive it wherever
@@ -19,6 +20,7 @@ function About(){
                            CARS19  Car rental is a car rental company that has gained popularity as Best Self Drive 
                            Car Rental in AP.</p>
                 </div>
+                <Footer/>
 
            </div>
            

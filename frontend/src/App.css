@@ -169,11 +169,44 @@ nav{
     text-shadow: 2px 2px black;
 }
 .gap{
-    min-height: 10vh;
+    min-height: 2vh;
     background-color: white;
 }
 .about{
     font-size: calc(10px + 2vmin);
     background-color:beige;
-
+    padding-left: 30px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    min-height: 12vh;
+}
+.icons{
+    display: flex;
+    padding-left: 20px;
+    font-size: calc(15px + 2vmin);
+    padding-top: 20px;
+}
+.phone{
+    padding-left: 50px;
+}
+.insta{
+    padding-left: 200px;
+}
+.facebook{
+    padding-left: 200px;
+}
+.reviews{
+    min-height: 50vh;
+}
+.textbox{
+    height: 50px;
+    width: 300px;
+    margin-left: 500px;
+}
+.review_gap{
+    min-height: 10vh;
+    background-color: black;
 }

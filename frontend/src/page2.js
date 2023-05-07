@@ -2,6 +2,8 @@ import React from "react";
 import './App.css';
 import CarList from "./cars";
 import Header from "./header";
+import Footer from "./footer";
+import Reviews from "./reviews";
 import { useNavigate } from "react-router-dom";
 
 function Page2(){
@@ -31,6 +33,15 @@ function Page2(){
         <h1 className="name10">OUR CARS</h1>
         <CarList/>
         <button className="cars_button" onClick={more_cars}>VIEW ALL OUR CARS....</button>
+        <br/>
+        <br/>
+        <div className="review_gap"></div>
+        <br/>
+        <div className="reviews">
+            <Reviews/>
+        </div>
+        <br/> 
+        <Footer/>
        </> 
     )
 }

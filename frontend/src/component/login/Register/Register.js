@@ -43,7 +43,7 @@ function Register(){
                         <br/>
                     </tr>
                     <tr>
-                        <td>EMAIL        </td>
+                        <td>EMAIL </td>
                         <td><input className="input" name="email" onChange={(e)=>Setemail(e.target.value)}/></td>
                         <br/>
                         <br/>

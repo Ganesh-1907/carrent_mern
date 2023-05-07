@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './header';
+import Footer from './footer';
 import { useNavigate } from "react-router-dom";
 
 
@@ -56,6 +57,9 @@ const More_cars = () => {
         </div>
       ))}
     </div>
+    <br/>
+    <br/>
+    <Footer/>
     </>
   );
 };

@@ -23,14 +23,19 @@ app.post('/Register/:username/:password/:email',async(req,res)=>{
     res.json(details)
 })
 
-// app.get('/data/:name/:car',async(req,res)=>{
-//     const details=await db.collection("cars_data").findOne({
-//         name:req.params.name,
-//         car:req.params.car
-//     })
-//     res.json(details)
-//     console.log(details)
-// })
+app.post('/reviews/:text/:username',async(req,res)=>{
+    const details=await db.collection("reviews").insertOne(
+        {
+            text:req.params.text,
+            username:req.params.username
+        });
+    res.json(details)
+})
+
+app.get('/reviews/',async(req,res)=>{
+    const details=await db.collection("reviews").find({}).toArray()
+    res.json(details);
+})
 
 connectToDB(()=>{
     app.listen(8000,()=>{
