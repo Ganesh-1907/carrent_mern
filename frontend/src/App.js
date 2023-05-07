@@ -26,10 +26,10 @@ function App(){
         <Route path='/Register' element={<Register/>}></Route>
         <Route path='/page2' element={<Page2/>}></Route>
         <Route path='/carlist' element={<CarList/>}></Route>
-        <Route path='/car_details' element={<CarDetailsPage/>} />
         <Route path='/more_cars' element={<More_cars/>} />
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/car_details/:id' render={ ({ match }) => <CarDetailsPage match={match}/>} />
       </Routes>
     </BrowserRouter>   
 </>

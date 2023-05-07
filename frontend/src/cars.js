@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 
 
 const cars = [
@@ -21,7 +21,7 @@ const CarList = () => {
             <table>
                 <tr>
                     <td><img src={car.imageUrl} alt={car.name} height="300px" width="300px" />
-                    <button onClick={car_details}>details</button>
+                    <Link to={`/car_details/${car.id}`}>details</Link>
                     <h2>{car.name}</h2>
                     <h2 className='namec1'>-{car.price}</h2>
                     </td> 
