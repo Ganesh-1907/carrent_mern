@@ -8,7 +8,7 @@ import CarList from './cars';
 import CarDetailsPage from './car_details';
 import More_cars from './more_cars';
 import About from './about';
-import Contact from './contact';
+
 import Reviews from './reviews';
 import Display from './review_display';
 import Screen from './screen';
