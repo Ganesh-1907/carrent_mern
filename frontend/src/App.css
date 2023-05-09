@@ -171,9 +171,9 @@ nav{
     margin-top: 20px;
 }
 .about_name{
-    color: #601eed;
+    color:aliceblue;
     font-size: calc(50px + 4vmin);
-    font-style: italic;
+    font-family: cursive;
     margin-top: -120px;
     margin-left: 200px;
     text-shadow: 2px 2px black;
@@ -184,8 +184,9 @@ nav{
 }
 .about{
     font-size: calc(10px + 2vmin);
-    background-color:beige;
+    background-color:rgb(61, 103, 6);
     padding-left: 30px;
+    color: aliceblue;
 }
 .footer{
     background-color: black;
