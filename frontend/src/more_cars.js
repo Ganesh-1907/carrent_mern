@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './header';
 import Footer from './footer';
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 
 
 const cars = [
@@ -37,6 +37,9 @@ const More_cars = () => {
   const car_details=async()=>{
     nav("/car_details")
   }
+  const booknow=()=>{
+    nav("/booking")
+  }
   const nav = useNavigate();
   return (
     <>
@@ -46,11 +49,11 @@ const More_cars = () => {
         <div key={car.id} className="car-item">
             <table>
                 <tr>
-                    <td><img src={car.imageUrl} alt={car.name} height="230px" width="300px" />
+                    <td><img src={car.imageUrl} alt={car.name} height="300px" width="300px" />
                     <h2>{car.name}</h2>
                     <h2 className='namec1'>-{car.price}</h2>
-                    <button onClick={car_details}>details</button>
-                    <button >booknow</button>
+                    <button><Link to={`/car_details/${car.id}`}>details</Link></button>
+                    <button onClick={booknow}>booknow</button>
                     </td> 
                 </tr>
             </table>
