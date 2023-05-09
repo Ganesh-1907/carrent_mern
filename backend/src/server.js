@@ -37,6 +37,11 @@ app.get('/reviews/',async(req,res)=>{
     res.json(details);
 })
 
+app.get('/delete',async(req,res)=>{
+    const del=await db.collection('reviews').deleteMany()
+    res.json(del)
+})
+
 connectToDB(()=>{
     app.listen(8000,()=>{
         console.log('server Running at port 8000')

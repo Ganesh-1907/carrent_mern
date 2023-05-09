@@ -57,8 +57,6 @@ const More_cars = () => {
         </div>
       ))}
     </div>
-    <br/>
-    <br/>
     <Footer/>
     </>
   );

@@ -78,7 +78,7 @@ text-shadow: 4px 3px white;
 nav{
     background-color:black;
     min-height: 15vh;
-    padding-left: 800px;
+    padding-left: 700px;
 }
 .one{
     display: inline-flex;
@@ -147,6 +147,7 @@ nav{
     font-style: italic;
     text-shadow: 2px 2px black;
     background-color: black;
+    text-align: center;
 }
 .image{
     border-radius: 50%;
@@ -154,6 +155,10 @@ nav{
 .car-item{
     display: inline-flex;
     padding-left: 120px;
+}
+.car-list{
+    height: 72vh;
+    overflow-y: scroll;
 }
 .cars_button{
     height: 50px;
@@ -204,14 +209,43 @@ nav{
     padding-left: 200px;
 }
 .reviews{
-    min-height: 50vh;
+    height: 55vh;
+    overflow-y: hidden;
 }
 .textbox{
     height: 50px;
-    width: 300px;
-    margin-left: 500px;
+    width: 500px;
+    margin-left: 400px;
+    color: black;
+    background-color: greenyellow;
 }
 .review_gap{
     min-height: 10vh;
     background-color: black;
+}
+.review-display{
+    display: inline-flex;
+    margin-left: 80px;
+    margin-top: 50px;
+    border: 10px solid green;
+}
+.table1{
+    width: 350px;
+    height: 170px;
+}
+table tr th h1{
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    background-color: green;
+}
+.Button1{
+    height: 45px;
+    width: 110px;
+    border-radius: 20px;
+    margin-left: 30px;
+    background-color: greenyellow;
+}
+.contact-gap{
+    min-height: 72vh;
 }

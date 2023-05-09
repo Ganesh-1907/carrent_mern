@@ -11,6 +11,9 @@ function Page2(){
     const more_cars=async()=>{
         nav('/more_cars')
     }
+    const readmore=async()=>{
+        nav('/more_reviews')
+    }
 
     return(
         <>
@@ -35,12 +38,16 @@ function Page2(){
         <button className="cars_button" onClick={more_cars}>VIEW ALL OUR CARS....</button>
         <br/>
         <br/>
-        <div className="review_gap"></div>
+        <div className="name10">FEEDBACK AND REVIEW</div>
         <br/>
         <div className="reviews">
             <Reviews/>
         </div>
+        <button  className="cars_button" onClick={readmore}>READ MORE...</button>
         <br/> 
+        <br/>
+        <br/>
+        <br/>
         <Footer/>
        </> 
     )

@@ -19,7 +19,7 @@ function Login(){
             nav('/page2')
         }
         else{
-            alert("failed")
+            alert("username or password  incorrect 🥴.")
         }
     }
     return(

@@ -14,13 +14,14 @@ function Reviews(){
     }
     return(
         <>
-        <div>
-            <input className="textbox" id="dis" type="text" name="review" placeholder="enter your review...." onChange={(e)=>Settext(e.target.value)} />
-            <button onClick={start}>SUBMIT</button>
-        </div>
-       <div>
-        <Display/>
-       </div>
+            <div>
+                <input className="textbox" id="dis" type="text" name="review" placeholder="enter your review...." onChange={(e)=>Settext(e.target.value)} />
+                
+                <button className="Button1" onClick={start}>SUBMIT</button>
+            </div>
+            <div>
+                <Display/>
+            </div>
         </>
     )
 }
