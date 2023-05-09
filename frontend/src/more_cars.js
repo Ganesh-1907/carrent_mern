@@ -50,7 +50,7 @@ const More_cars = () => {
                     <h2>{car.name}</h2>
                     <h2 className='namec1'>-{car.price}</h2>
                     <button onClick={car_details}>details</button>
-
+                    <button >booknow</button>
                     </td> 
                 </tr>
             </table>
