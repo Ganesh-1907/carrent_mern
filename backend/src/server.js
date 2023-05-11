@@ -36,9 +36,27 @@ app.get('/reviews/',async(req,res)=>{
     const details=await db.collection("reviews").find({}).toArray()
     res.json(details);
 })
+app.post('/booking/:name/:age/:email/:mobile/:aadhar/:pickup/:returndate',async(req,res)=>{
+    const details=await db.collection("booking_details").insertOne(
+        {
+            name:req.params.name,
+            age:req.params.age,
+            email:req.params.email,
+            mobile:req.params.mobile,
+            aadhar:req.params.aaadhar,
+            pickup:req.params.pickup,
+            returndate:req.params.returndate
+        });
+        res.json(details)
+})
+
+app.get('/getdata',async(req,res)=>{
+    const data=await db.collection('booking_details').find({}).sort({_id:-1}).limit(1).toArray()
+    res.send(data)
+})
 
 app.get('/delete',async(req,res)=>{
-    const del=await db.collection('reviews').deleteMany()
+    const del=await db.collection('booking_details').deleteMany()
     res.json(del)
 })
 

@@ -10,9 +10,8 @@ const cars = [
 
 const CarList = () => {
 
-  const car_details=async()=>{
-    nav("/car_details")
-  }
+  
+  
   const nav = useNavigate();
   return (
     <div className="car-list">
@@ -21,9 +20,10 @@ const CarList = () => {
             <table>
                 <tr>
                     <td><img src={car.imageUrl} alt={car.name} height="300px" width="300px" />
-                    <Link to={`/car_details/${car.id}`}>details</Link>
                     <h2>{car.name}</h2>
                     <h2 className='namec1'>-{car.price}</h2>
+                    <button className='details'><Link to={`/car_details/${car.id}`}>Details</Link></button>
+                    <button className='booknow'><Link to={`/booking/${car.id}`}>BookNow</Link></button>
                     </td> 
                 </tr>
             </table>

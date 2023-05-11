@@ -100,14 +100,14 @@ nav{
     text-shadow: 1px 1px white;
 }
 .Two{
-    min-height: 50vh;
+    min-height: 70vh;
     position: relative;
 }
 .Three{
-    min-height: 29vh;
+    min-height: 14vh;
     background-color: black;
     position: relative;
-    margin-top: -25px;
+    margin-top: -22px;
 }
 .name6{
     color: white;
@@ -124,7 +124,7 @@ nav{
 }
 .name8{
     color: white;
-    font-size: calc(13px + 2vmin);
+    font-size: calc(12px + 2vmin);
     font-style: italic;
     padding-left: 30px;
   
@@ -157,7 +157,7 @@ nav{
     padding-left: 120px;
 }
 .car-list{
-    height: 72vh;
+    height: 69vh;
     overflow-y: scroll;
 }
 .cars_button{
@@ -168,7 +168,7 @@ nav{
     font-style: italic;
     margin-left: 600px;
     border: 3px solid black;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .about_name{
     color:aliceblue;
@@ -247,14 +247,65 @@ table tr th h1{
     margin-left: 30px;
     background-color: greenyellow;
 }
-.contact-gap{
+
+.booking_image{
+    margin-left: 1000px;
+}
+.details_image{
+    margin-left: 600px ;
+}
+.details_car_name{
+    color: rgb(211, 26, 26);
+    font-size: calc(30px + 2vmin);
+    margin-top: -320px;
+}
+.details_gap{
+    min-height: 78vh;
+    margin-left: 30px;
+}
+.details{
+    height: 30px;
+    width: 150px;
+    background-color: yellow;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.booknow{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(77, 214, 77);
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.book_border{
+    border: 10px solid black;
+    border-radius: 30px;
+    margin-top: -400px;
+    height: 400px;
+    width: 850px;
+    margin-left: 50px;
+}
+.book_border tr td{
+    font-size: 20px;
+    height: 30px;
+    padding-left: 20px ;
+
+}
+.booking_car_name{
+    margin-left: 1000px;
+    color: red;
+}
+.details_border{
+    border: 3px solid black;
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
     min-height: 5vh; 
     display:inline-flex;
     width: 100%;
 }
 .con{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
 }
 .con1
 {
@@ -265,4 +316,6 @@ table tr th h1{
 .con2{
     width: 50%;
     height: 50vh;
+    padding-right:10px;
+
 }

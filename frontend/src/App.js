@@ -13,6 +13,7 @@ import Reviews from './reviews';
 import Display from './review_display';
 import More_reviews from './more_reviews';
 import Booking from './booking';
+import Print from './print';
 
 const cars = [
   { id: 1, name: ' Maruti Suzuki igins', imageUrl: 'image4.jpg' , price: 'Starts from ₹1200/-' },
@@ -37,8 +38,11 @@ function App(){
         <Route path='/display' element={<Display/>} />
         <Route path='/booking' element={<Booking/>}/>
         <Route path='/more_reviews' element={<More_reviews/>}/>
-        {/* <Route path='/car_details/:id' render={ ({ match }) => <CarDetailsPage match={match}/>} /> */}
         <Route path='/car_details/:id' element= {<CarDetailsPage/>}/>
+        <Route path='/booking/:id' element={<Booking/>}/>
+        <Route path='/print' element={<Print/>}/>
+        
+        
       </Routes>
     </BrowserRouter>   
 </>

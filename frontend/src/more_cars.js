@@ -44,6 +44,7 @@ const More_cars = () => {
   return (
     <>
     <Header/>
+    <br/>
     <div className="car-list">
       {cars.map((car) => (
         <div key={car.id} className="car-item">
@@ -52,8 +53,8 @@ const More_cars = () => {
                     <td><img src={car.imageUrl} alt={car.name} height="300px" width="300px" />
                     <h2>{car.name}</h2>
                     <h2 className='namec1'>-{car.price}</h2>
-                    <button><Link to={`/car_details/${car.id}`}>details</Link></button>
-                    <button onClick={booknow}>booknow</button>
+                    <button className='details'><Link to={`/car_details/${car.id}`}>details</Link></button>
+                    <button className='booknow'><Link to={`/booking/${car.id}`}>Booknow</Link></button>
                     </td> 
                 </tr>
             </table>
