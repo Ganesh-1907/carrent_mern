@@ -249,8 +249,20 @@ table tr th h1{
 }
 .contact-gap{
     min-height: 5vh; 
+    display:inline-flex;
+    width: 100%;
 }
 .con{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-right:10px;
+    
+}
+.con1
+{
+    width: 50%;
+    height: 50vh;
+    
+}
+.con2{
+    width: 50%;
+    height: 50vh;
 }
