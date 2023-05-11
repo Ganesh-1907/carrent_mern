@@ -171,9 +171,9 @@ nav{
     margin-top: 10px;
 }
 .about_name{
-    color: #601eed;
+    color:aliceblue;
     font-size: calc(50px + 4vmin);
-    font-style: italic;
+    font-family: cursive;
     margin-top: -120px;
     margin-left: 200px;
     text-shadow: 2px 2px black;
@@ -184,8 +184,9 @@ nav{
 }
 .about{
     font-size: calc(10px + 2vmin);
-    background-color:beige;
+    background-color:rgb(61, 103, 6);
     padding-left: 30px;
+    color: aliceblue;
 }
 .footer{
     background-color: black;
@@ -247,6 +248,7 @@ table tr th h1{
     background-color: greenyellow;
 }
 .contact-gap{
+<<<<<<< HEAD
     min-height: 72vh;
 }
 .booking_image{
@@ -301,4 +303,11 @@ table tr th h1{
     height: 200px;
     width: 250px;
     border-radius: 30px;
+=======
+    min-height: 5vh; 
+}
+.con{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right:10px;
+>>>>>>> 807950606913ad92ec45c8d6ce02272d9bdf3a6d
 }
