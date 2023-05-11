@@ -248,5 +248,9 @@ table tr th h1{
     background-color: greenyellow;
 }
 .contact-gap{
-    min-height: 72vh;
+    min-height: 5vh; 
+}
+.con{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right:10px;
 }
