@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams,Link } from 'react-router-dom';
+import Footer from './footer';
 import { BrowserRouter as Router, Route ,  } from 'react-router-dom';
 
 const cars=[
@@ -33,27 +34,21 @@ function CarDetailsPage(props) {
   const { id } = useParams();  
   const car = cars.find(car => car.id === parseInt(id));
   console.log(id);
-
-  // const [isBooked, setIsBooked] = useState(false);
-
-  // function handleBookCar() {
-  //   setIsBooked(true);
-  // }
+  console.log('hello')
 
   return (
     <>
-    <div>
-      <h1>{car.name}</h1>
-      <img src={car.imageUrl} alt={car.name} height="300px" width="300px"/>
-      <p>{car.name}</p>
-      <p>Price per day: ${car.price}</p>
-      {/* {!isBooked && (
-        <button onClick={handleBookCar}>Book Now</button>
-      )}
-      {isBooked && (
-        <p>This car has been booked.</p>
-      )} */}
+    <div className='details_gap'>
+      <img className='details_image' src={car.imageUrl} alt={car.name} height="350px" width="400px"/>
+      <br/>
+      <h1 className='details_car_name'>{car.name}</h1>
+      <h2>Price per day: {car.price}</h2>
+      <button className='booknow'><Link to={`/booking/${car.id}`}>BookNow</Link></button>
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <Footer/>
     </>
   );
 }

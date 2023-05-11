@@ -20,13 +20,13 @@ function Page2(){
         <Header/> 
         <div className="Two">
             <div>
-            <img src="image5.jpg" alt="cars" height="400px" width="1446px" />
+            <img src="image5.jpg" alt="cars" height="500px" width="1449px" />
             <h1 className="name7">A CAR FOR EVERY<br/>PURSE AND <br/>PURPOSE</h1>
             </div>
         </div>
         <div className="Three">
             {/* <marquee ><img src="image2.jpg" height="70px" width="120px"/></marquee> */}
-            <h1 className="name9">Cars-19 offers Affordable Rent a Car in AP.</h1>
+            {/* <h1 className="name9">Cars-19 offers Affordable Rent a Car in AP.</h1> */}
             <h1 className="name8">Cars-19 provides an easy way to book Cars.
              We at Car-19 provide car rental service across State, exclusively offering self drive car service and car rental service 
              across AP.We have a wide range of cars from which you can book any car of your choice.
