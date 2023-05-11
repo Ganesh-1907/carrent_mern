@@ -5,9 +5,9 @@ import Footer from './footer';
 import { BrowserRouter as Router, Route ,  } from 'react-router-dom';
 
 const cars=[
-  { id: 1, name: ' i10', imageUrl: 'http://localhost:3000/car1.png' , price: 'Starts from ₹1000/-' },
-  { id: 2, name: ' Maruti Suzuki ignis', imageUrl: 'http://localhost:3000/image4.jpg' , price: 'Starts from ₹1200/-' },
-  { id: 3, name: ' SWIFT', imageUrl: 'http://localhost:3000/car2.png' ,price: 'Starts from ₹1400/-' },
+  { id: 1, name: ' i10', imageUrl: 'http://localhost:3000/car1.png' , price: ' starts from₹1000/-',speed:'19kmpl',seats:'4',fueltype:'petrol' },
+  { id: 2, name: ' Maruti Suzuki ignis', imageUrl: 'http://localhost:3000/image4.jpg' , price: 'Starts from ₹1200/-',speed:'25kmpl',fueltype:'diseel',seats:'4' },
+  { id: 3, name: ' SWIFT', imageUrl: 'http://localhost:3000/car2.png' ,price: 'Starts from ₹1400/-',speed:'26kmpl',fueltype:'diesel',seats:'4' },
   { id: 4, name: 'AMAZE', imageUrl: 'http://localhost:3000/car3.png' ,price:'Starts from ₹1700/-'},
   { id: 5, name: ' i20', imageUrl: 'http://localhost:3000/car4.png' , price: 'Starts from ₹1200/-' },
   { id: 6, name: ' BALENO', imageUrl: 'http://localhost:3000/car5.png' ,price: 'Starts from ₹1500/-' },
@@ -43,6 +43,11 @@ function CarDetailsPage(props) {
       <br/>
       <h1 className='details_car_name'>{car.name}</h1>
       <h2>Price per day: {car.price}</h2>
+      <div className='details_border'>
+      <h2>speed : {car.speed}</h2>
+      <h2>fueltype : {car.fueltype}</h2>
+      <h2>Number of seats : {car.seats}</h2>
+      </div>
       <button className='booknow'><Link to={`/booking/${car.id}`}>BookNow</Link></button>
     </div>
     <br/>

@@ -249,8 +249,11 @@ table tr th h1{
 .contact-gap{
     min-height: 72vh;
 }
-.details_image{
+.booking_image{
     margin-left: 1000px;
+}
+.details_image{
+    margin-left: 600px ;
 }
 .details_car_name{
     color: rgb(211, 26, 26);
@@ -258,7 +261,7 @@ table tr th h1{
     margin-top: -320px;
 }
 .details_gap{
-    min-height: 80vh;
+    min-height: 78vh;
     margin-left: 30px;
 }
 .details{
@@ -292,4 +295,10 @@ table tr th h1{
 .booking_car_name{
     margin-left: 1000px;
     color: red;
+}
+.details_border{
+    border: 3px solid black;
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
 }

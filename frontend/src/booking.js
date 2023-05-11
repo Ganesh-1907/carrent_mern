@@ -63,7 +63,7 @@ function Booking(props){
         <Header/>
         <br/>
         <div>
-        <img className='details_image' src={car.imageUrl} alt={car.name} height="350px" width="400px"/>
+        <img className='booking_image' src={car.imageUrl} alt={car.name} height="350px" width="400px"/>
         <h1 className='booking_car_name'>{car.name}</h1>
         {/* <h2 className="booking_car_name">Price per day: {car.price}</h2> */}
         </div>
@@ -91,16 +91,14 @@ function Booking(props){
                     <td><input type="text" name="age" onChange={(e)=>setage(e.target.value)}/></td>
                 </tr>
                 <tr>
-                    <td>email id</td>
-                    <td><input type="text" name="email" onChange={(e)=>setemail(e.target.value)}/></td>
-                </tr>
-                <tr>
                     <td>Mobile number</td>
                     <td><input type="text" name="mobile" onChange={(e)=>setmobile(e.target.value)} /> </td>
                     <td>aadhar number</td>
                     <td><input type="text" name="aadhar" onChange={(e)=>setaadhar(e.target.value)} /></td>
                 </tr>
                 <tr>
+                    <td>email id</td>
+                    <td><input type="text" name="email" onChange={(e)=>setemail(e.target.value)}/></td>
                     <td>Licence id</td>
                     <td><input type="text"  /></td>
                 </tr>
