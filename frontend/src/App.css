@@ -247,13 +247,9 @@ table tr th h1{
     margin-left: 30px;
     background-color: greenyellow;
 }
-<<<<<<< HEAD
 .contact-gap{
     min-height: 72vh;
 }
-=======
-
->>>>>>> 52ea7b449aa599d99ad405a16e68459accd5d646
 .booking_image{
     margin-left: 1000px;
 }
@@ -302,10 +298,8 @@ table tr th h1{
     color: red;
 }
 .details_border{
-<<<<<<< HEAD
     min-height: 5vh;
     margin-left: 100px;
-=======
     border: 3px solid black;
     height: 200px;
     width: 250px;
@@ -313,7 +307,6 @@ table tr th h1{
     min-height: 5vh; 
     display:flex;
     width: 100%;
->>>>>>> 52ea7b449aa599d99ad405a16e68459accd5d646
 }
 .con{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -328,8 +321,4 @@ table tr th h1{
     width: 50%;
     height: 50vh;
     padding-right:10px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 52ea7b449aa599d99ad405a16e68459accd5d646
 }
