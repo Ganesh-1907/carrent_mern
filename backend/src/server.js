@@ -36,23 +36,35 @@ app.get('/reviews/',async(req,res)=>{
     const details=await db.collection("reviews").find({}).toArray()
     res.json(details);
 })
-app.post('/booking/:name/:age/:email/:mobile/:aadhar/:pickup/:returndate',async(req,res)=>{
+app.post('/booking/:name/:age/:email/:mobile/:aadhar/:pickup/:returndate/:carname/:carprice/:licence/:fuel/:seats',async(req,res)=>{
     const details=await db.collection("booking_details").insertOne(
         {
             name:req.params.name,
             age:req.params.age,
             email:req.params.email,
             mobile:req.params.mobile,
-            aadhar:req.params.aaadhar,
+            aadhar:req.params.aadhar,
             pickup:req.params.pickup,
-            returndate:req.params.returndate
+            returndate:req.params.returndate,
+            carname:req.params.carname,
+            carprice:req.params.carprice,
+            licence:req.params.licence,
+            fuel:req.params.fuel,
+            seats:req.params.seats
         });
         res.json(details)
 })
-
+    
 app.get('/getdata',async(req,res)=>{
     const data=await db.collection('booking_details').find({}).sort({_id:-1}).limit(1).toArray()
     res.send(data)
+})
+
+app.get('/checkbooking/:carname',async(req,res)=>{
+    const details=await db.collection('booking_details').findOne({
+        carname:req.params.carname
+    });
+    res.send(details)
 })
 
 app.get('/delete',async(req,res)=>{

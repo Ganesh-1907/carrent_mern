@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './header';
 import Footer from './footer';
 import { useNavigate,Link } from "react-router-dom";
+import axios from 'axios';
 
 
 const cars = [
@@ -28,11 +29,27 @@ const cars = [
   { id: 21, name: ' RangeRover vellar', imageUrl: 'image8.jpg' ,price: 'Starts from ₹6000/-' },
   { id: 22, name: 'FORTUNER ', imageUrl: 'car19.png' ,price:'Starts from ₹7000/-'},
   { id: 23, name: 'AUDI A4', imageUrl: 'car20.png' ,price:'Starts from ₹12000/-'},
+  { id: 24, name: 'BMW X6M', imageUrl: 'car21.png' ,price:'Starts from ₹15000/-'},
+
 ];
 
 
 
 const More_cars = () => {
+
+  // const[carname,setcarname]=useState();
+  // const[err,seterr]=useState();
+  // setcarname(localStorage.carname)
+  // const booking=async()=>{
+  //   const check=await axios.get("http://localhost:8000/checkbooking"+carname)
+  //   console.log(check.data)
+  //   if(check.data){
+  //     seterr("alreaady booked !")
+  //   }
+  //   else{
+  //     nav('/booking')
+  //   }
+  // }
 
   const car_details=async()=>{
     nav("/car_details")
@@ -53,6 +70,7 @@ const More_cars = () => {
                     <td><img src={car.imageUrl} alt={car.name} height="300px" width="300px" />
                     <h2>{car.name}</h2>
                     <h2 className='namec1'>-{car.price}</h2>
+                    {/* <p>{err}</p> */}
                     <button className='details'><Link to={`/car_details/${car.id}`}>details</Link></button>
                     <button className='booknow'><Link to={`/booking/${car.id}`}>Booknow</Link></button>
                     </td> 

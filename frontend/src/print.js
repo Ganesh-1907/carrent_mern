@@ -22,13 +22,16 @@ function Print(){
             data.map((dic)=>{
             return(
                 <>
-                    <h2>CUSTOMER NAME : {dic.name}</h2>
-                    <h2>CUSTOMER AGE : {dic.age}</h2>
-                    <h2>CUSTOMER EMAIL : {dic.email}</h2>
-                    <h2>CUSTOMER MOBILE NUMBER : { dic.mobile}</h2>
-                    <h2>CUSTOMER AADHAR NUMBER : {dic.aadhar}</h2>
-                    <h2>VECHICLE PICKUP DATE : {dic.pickup}</h2>
-                    <h2>VACHICLE RETURN DATE : {dic.returndate}</h2>
+                    <h2> NAME : {dic.name}</h2>
+                    <h2> EMAIL : {dic.email}</h2>
+                    <h2> MOBILE NUMBER : { dic.mobile}</h2>
+                    <h2> AGE : {dic.age}</h2>
+                    <h2> AADHAR NUMBER : {dic.aadhar}</h2>
+                    <h2> PICKUP DATE : {dic.pickup}</h2>
+                    <h2> RETURN DATE : {dic.returndate}</h2>
+                    <h2> LICENCE ID : {dic.licence} </h2>
+                    <h2>CAR NAME : {dic.carname}</h2>
+                    <h2>car price : {dic.carprice}</h2>
                     <hr/>
                 </>
                 )
