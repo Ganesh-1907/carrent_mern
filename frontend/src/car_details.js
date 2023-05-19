@@ -55,7 +55,7 @@ function CarDetailsPage(props) {
       <h1>model : {car.model}</h1>
 
       </div>
-      <button className='booknow'><Link to={`/booking/${car.id}`}>BookNow</Link></button>
+      <button className='booknow1'><Link to={`/booking/${car.id}`}>BookNow</Link></button>
     </div>
     <br/>
     <br/>

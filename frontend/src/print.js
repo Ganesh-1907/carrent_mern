@@ -1,9 +1,18 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
+// import Success from "./success";
+import { useParams,useNavigate } from "react-router-dom";
 
-function Print(){
+
+
+
+function Print(props){
     const [data,setData]=useState([]);
+    const nav=useNavigate();
+    const success=async()=>{
+        nav('/success')
+    }
     
     useEffect(()=>{
         axios.get('http://localhost:8000/getdata')
@@ -22,7 +31,8 @@ function Print(){
             data.map((dic)=>{
             return(
                 <>
-                    <h2> NAME : {dic.name}</h2>
+                <div className="print">
+                    <h2>FIRST NAME : {dic.name}</h2>
                     <h2> EMAIL : {dic.email}</h2>
                     <h2> MOBILE NUMBER : { dic.mobile}</h2>
                     <h2> AGE : {dic.age}</h2>
@@ -30,9 +40,9 @@ function Print(){
                     <h2> PICKUP DATE : {dic.pickup}</h2>
                     <h2> RETURN DATE : {dic.returndate}</h2>
                     <h2> LICENCE ID : {dic.licence} </h2>
-                    <h2>CAR NAME : {dic.carname}</h2>
-                    <h2>car price : {dic.carprice}</h2>
-                    <hr/>
+                    <button className="Button" onClick={success}>conform</button>
+
+                    </div>
                 </>
                 )
             })

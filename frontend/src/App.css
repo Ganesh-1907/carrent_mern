@@ -247,9 +247,6 @@ table tr th h1{
     margin-left: 30px;
     background-color: greenyellow;
 }
-.contact-gap{
-    min-height: 72vh;
-}
 .booking_image{
     margin-left: 1000px;
 }
@@ -262,7 +259,7 @@ table tr th h1{
     margin-top: -320px;
 }
 .details_gap{
-    min-height: 61vh;
+    min-height: 50vh;
     margin-left: 30px;
 }
 .details{
@@ -277,13 +274,14 @@ table tr th h1{
     width: 150px;
     background-color: rgb(77, 214, 77);
     font-size: 15px;
+    margin-top: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .book_border{
     border: 10px solid black;
     border-radius: 30px;
     margin-top: -400px;
-    height: 400px;
+    height: 450px;
     width: 850px;
     margin-left: 50px;
 }
@@ -300,25 +298,59 @@ table tr th h1{
 .details_border{
     min-height: 5vh;
     margin-left: 100px;
-    border: 3px solid black;
     height: 200px;
     width: 250px;
     border-radius: 30px;
-    min-height: 5vh; 
-    display:flex;
+    min-height: 5vh;
     width: 100%;
 }
 .con{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/* .contact-gap{
+    min-height: 62vh;
+} */
 .con1
 {
     width: 50%;
     height: 50vh;
-    
+    margin-top: 50px;
+    margin-left: 740px; 
 }
 .con2{
     width: 50%;
     height: 50vh;
     padding-right:10px;
+    margin-top: -250px;
+    margin-left: 30px; 
+}
+.address{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: -60px;
+}
+.print{
+    border: 5px solid green;
+    width: 600px;
+    height: 500px;
+    margin-left: 400px;
+}
+.complete{
+    color: rgb(23, 192, 23);
+    font-size: calc(75px + 2vmin);
+    margin-left: 200PX;
+    margin-top: 50PX;
+}
+.booknow1{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(104, 237, 104);
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: 400px;
+}
+.tick{
+    margin-left: 550px;
+    margin-top: 200px;
 }

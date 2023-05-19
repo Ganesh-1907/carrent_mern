@@ -14,6 +14,7 @@ import Display from './review_display';
 import More_reviews from './more_reviews';
 import Booking from './booking';
 import Print from './print';
+import Success from './success';
 
 const cars = [
   { id: 1, name: ' Maruti Suzuki igins', imageUrl: 'image4.jpg' , price: 'Starts from ₹1200/-' },
@@ -41,6 +42,7 @@ function App(){
         <Route path='/car_details/:id' element= {<CarDetailsPage/>}/>
         <Route path='/booking/:id' element={<Booking/>}/>
         <Route path='/print' element={<Print/>}/>
+        <Route path='/success' element={<Success/>}/>
         
         
       </Routes>

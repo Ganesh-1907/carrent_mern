@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,Link } from "react";
 import Header from "./header";
 import { useParams,useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -38,7 +38,6 @@ function Booking(props){
     const { id } = useParams();  
     const car = cars.find(car => car.id === parseInt(id));
     console.log(id);
-    localStorage.carname=carname;
 
     const[username,setusername]=useState();
     const[age,setage]=useState();
@@ -82,15 +81,15 @@ function Booking(props){
                 </tr>
                 <tr>
                     <td>Car Name</td>
-                    <td><input type="text" name="carname" onChange={(e)=>setcarname(e.target.value)} />  </td>
+                    <td><input type="text" name="carname" value={car.name} onChange={(e)=>setcarname(e.target.value)} />  </td>
                     <td>car price</td>
-                    <td><input type="text"  name="carprice" onChange={(e)=>setcarprice(e.target.value)}/>  </td>
+                    <td><input type="text"  name="carprice" value={car.price} onChange={(e)=>setcarprice(e.target.value)}/>  </td>
                 </tr>
                 <tr>
                     <td>fueltype</td>
-                    <td><input type="text"  name="carfuel" onChange={(e)=>setfuel(e.target.value)} />  </td>
+                    <td><input type="text"  name="carfuel" value={car.fueltype} onChange={(e)=>setfuel(e.target.value)} />  </td>
                     <td>No of Seats</td>
-                    <td><input type="text"  name="carseats" onChange={(e)=>setseats(e.target.value)}/>  </td>
+                    <td><input type="text"  name="carseats" value={car.seats} onChange={(e)=>setseats(e.target.value)}/>  </td>
                 </tr>
                 <tr>
                     <td>First name</td>
@@ -124,6 +123,7 @@ function Booking(props){
                 </tr>
                 <br/>
                 <button className="Button1" onClick={booking}>BookNow</button>
+                {/* <Link to={`/print/${car.id}`} onclick={booking}> BookNow</Link> */}
             </table>
         </div>
         </>
