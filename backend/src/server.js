@@ -3,7 +3,7 @@ import cors from "cors";
 import {db,connectToDB} from './db.js';
 
 const app=express()
-app.use(express.json())
+app.use(express.json()) 
 app.use(cors())
 
 app.get('/login/:username/:password',async(req,res)=>{
