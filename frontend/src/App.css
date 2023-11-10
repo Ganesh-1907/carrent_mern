@@ -249,9 +249,11 @@ table tr th h1{
 }
 .booking_image{
     margin-left: 1000px;
+    margin: 400px 0px 0px 1000px;
 }
 .details_image{
     margin-left: 600px ;
+    margin: 330px 0px 0px 700px;
 }
 .details_car_name{
     color: rgb(211, 26, 26);
@@ -259,11 +261,11 @@ table tr th h1{
     margin-top: -320px;
 }
 .details_gap{
-    min-height: 50vh;
+    min-height: 60vh;
     margin-left: 30px;
 }
 .details{
-    height: 30px;
+    height: 50px;
     width: 150px;
     background-color: yellow;
     font-size: 15px;
@@ -296,7 +298,7 @@ table tr th h1{
     color: red;
 }
 .details_border{
-    min-height: 5vh;
+    min-height: 15vh;
     margin-left: 100px;
     height: 200px;
     width: 250px;
