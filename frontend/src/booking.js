@@ -54,7 +54,7 @@ function Booking(props){
 
 
     const booking=async()=>{
-        const input=await axios.post("http://localhost:8000/booking/"+username+"/"+age+"/"+email+"/"+mobile+"/"+aadhar+"/"+pickup+"/"+returndate+"/"+carname+"/"+carprice+"/"+licence+"/"+fuel+"/"+seats)
+        const input=await axios.post("https://gs-carrentals.onrender.com/booking/"+username+"/"+age+"/"+email+"/"+mobile+"/"+aadhar+"/"+pickup+"/"+returndate+"/"+carname+"/"+carprice+"/"+licence+"/"+fuel+"/"+seats)
         console.log(input.data)
         if(input.data){
             nav('/print')

@@ -15,7 +15,7 @@ function Print(props){
     }
     
     useEffect(()=>{
-        axios.get('http://localhost:8000/getdata')
+        axios.get('https://gs-carrentals.onrender.com/getdata')
         .then((responce)=>{   
             setData(responce.data);
         })

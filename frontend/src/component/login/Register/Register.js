@@ -12,7 +12,7 @@ function Register(){
     const[email,Setemail]=useState();
 
     const Register=async()=>{
-        const  responce = await axios.post("http://localhost:8000/Register/"+username+"/"+password+"/"+email);
+        const  responce = await axios.post("https://gs-carrentals.onrender.com/Register/"+username+"/"+password+"/"+email);
         console.log(responce.data);
         if(responce.data){
             nav('/')

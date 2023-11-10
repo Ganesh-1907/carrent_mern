@@ -7,7 +7,7 @@ function Reviews(){
     const username=localStorage.username;
     const[text,Settext]=useState();
     const start=async()=>{
-        const responce=await axios.post("http://localhost:8000/reviews/"+text+"/"+username)
+        const responce=await axios.post("https://gs-carrentals.onrender.com/reviews/"+text+"/"+username)
         console.log(responce.data)
         document.getElementById("dis").value='';
         window.location.reload(false);

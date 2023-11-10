@@ -5,7 +5,7 @@ const Display= () => {
     const[data,setData]=useState([]);
 
     useEffect(()=>{
-        axios.get('http://localhost:8000/reviews')
+        axios.get('https://gs-carrentals.onrender.com/reviews')
         .then((responce)=>{   
             setData(responce.data.sort().reverse());
         })

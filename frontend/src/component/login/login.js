@@ -13,7 +13,7 @@ function Login(){
     localStorage.username=username;
 
     const start=async()=>{
-        const  responce = await axios.get("http://localhost:8000/login/"+username+"/"+password);
+        const  responce = await axios.get("https://gs-carrentals.onrender.com/login/"+username+"/"+password);
         console.log(responce.data);
         if(responce.data){
             nav('/page2')

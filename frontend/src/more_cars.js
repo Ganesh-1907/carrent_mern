@@ -41,7 +41,7 @@ const More_cars = () => {
   // const[err,seterr]=useState();
   // setcarname(localStorage.carname)
   // const booking=async()=>{
-  //   const check=await axios.get("http://localhost:8000/checkbooking"+carname)
+  //   const check=await axios.get("https://gs-carrentals.onrender.com/checkbooking"+carname)
   //   console.log(check.data)
   //   if(check.data){
   //     seterr("alreaady booked !")
